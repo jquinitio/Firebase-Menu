@@ -1,0 +1,54 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .container-dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .container-light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .form-control-dark {
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #555555;
+  }
+  
+  .form-control-light {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+  }
+  
+  .table-dark {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  
+  .table-light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .button-dark {
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #555555;
+  }
+  
+  .button-light {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+  }
+  
