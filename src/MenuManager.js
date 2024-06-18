@@ -185,6 +185,8 @@ const MenuManager = () => {
                           Price
                           <Field
                             name={`options[${index}].price`}
+                            type="number"
+                            step="0.01"
                             className={`form-control ${
                               darkMode
                                 ? "form-control-dark"
@@ -201,6 +203,8 @@ const MenuManager = () => {
                           Cost
                           <Field
                             name={`options[${index}].cost`}
+                            type="number"
+                            step="0.01"
                             className={`form-control ${
                               darkMode
                                 ? "form-control-dark"
@@ -217,6 +221,7 @@ const MenuManager = () => {
                           Stock
                           <Field
                             name={`options[${index}].stock`}
+                            type="number"
                             className={`form-control ${
                               darkMode
                                 ? "form-control-dark"
@@ -245,6 +250,8 @@ const MenuManager = () => {
                         Price
                         <Field
                           name="price"
+                          type="number"
+                          step="0.01"
                           className={`form-control ${
                             darkMode
                               ? "form-control-dark"
@@ -261,6 +268,8 @@ const MenuManager = () => {
                         Cost
                         <Field
                           name="cost"
+                          type="number"
+                          step="0.01"
                           className={`form-control ${
                             darkMode
                               ? "form-control-dark"
@@ -277,6 +286,7 @@ const MenuManager = () => {
                         Stock
                         <Field
                           name="stock"
+                          type="number"
                           className={`form-control ${
                             darkMode
                               ? "form-control-dark"
